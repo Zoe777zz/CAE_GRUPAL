@@ -2,9 +2,7 @@ package b_estructuras;
 
 import java.io.Serializable; // necesario para la persistencia
 
-// nota: se asume que vacioexception y nodo<t> estan definidos en el paquete b_estructuras
 
-// implementacion de una cola (queue) usando nodos
 public class Cola<T> implements Serializable { // implementa serializable
     private static final long serialVersionUID = 1L;
 
