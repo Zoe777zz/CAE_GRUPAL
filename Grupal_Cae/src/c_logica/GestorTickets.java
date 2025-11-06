@@ -22,7 +22,7 @@ public class GestorTickets implements Serializable, Reversible {
         this.ticketsCompletados = new ListaEnlazada<>();
     }
 
-    // --- Hook de Serialización para contadorId ---
+    
 
     private void readObject(ObjectInputStream ois) throws IOException, ClassNotFoundException {
         ois.defaultReadObject();
