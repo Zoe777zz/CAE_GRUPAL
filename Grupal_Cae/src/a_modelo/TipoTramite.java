@@ -17,13 +17,12 @@ public enum TipoTramite implements Serializable {
         this.descripcion = descripcion;
     }
 
-    // 2. ¡EL MÉTODO QUE FALTABA!
-    // Este método permite a GestorTickets obtener el ID numérico para la exportación CSV.
+  
     public int getId() {
         return id;
     }
 
-    // Getter para la descripción (opcional, pero útil)
+    
     public String getDescripcion() {
         return descripcion;
     }
